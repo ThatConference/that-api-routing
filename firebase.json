@@ -1,17 +1,20 @@
 {
-    "hosting": {
-      "public": "public",
-      "rewrites": [
-        {
-          "source": "/",
-          "function": "graphGateway"
-        },
-        {
-          "source": "/graphql",
-          "function": "graphGateway"
-        }
-      ],
-      "ignore": ["firebase.json", "**/node_modules/**"]
-    }
+  "hosting": {
+    "public": "public",
+    "rewrites": [
+      {
+        "source": "/",
+        "function": "graphGateway"
+      },
+      {
+        "source": "/graphql",
+        "function": "graphGateway"
+      },
+      {
+        "source": "/view",
+        "function": "graphGateway"
+      }
+    ],
+    "ignore": ["firebase.json", "**/node_modules/**"]
   }
-  
+}
