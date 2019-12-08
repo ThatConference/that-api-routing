@@ -13,6 +13,10 @@
       {
         "source": "/view",
         "function": "graphGateway"
+      },
+      {
+        "source": "/.internal",
+        "function": "graphGateway"
       }
     ],
     "ignore": ["firebase.json", "**/node_modules/**"]
