@@ -17,6 +17,10 @@
       {
         "source": "/.internal/**",
         "function": "graphGateway"
+      },
+      {
+        "source": "/profile",
+        "function": "fileUploadGateway"
       }
     ],
     "ignore": ["firebase.json", "**/node_modules/**"]
