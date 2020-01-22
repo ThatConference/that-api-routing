@@ -21,6 +21,10 @@
       {
         "source": "/profile",
         "function": "fileUploadGateway"
+      },
+      {
+        "source": "/profile/check",
+        "function": "fileUploadGateway"
       }
     ],
     "ignore": ["firebase.json", "**/node_modules/**"]
