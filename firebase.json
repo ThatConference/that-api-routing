@@ -23,7 +23,7 @@
         "function": "fileUploadGateway"
       },
       {
-        "source": "/profile/check",
+        "source": "/check",
         "function": "fileUploadGateway"
       }
     ],
