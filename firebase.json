@@ -4,19 +4,31 @@
     "rewrites": [
       {
         "source": "/",
-        "function": "graphGateway"
+        "run": {
+          "serviceId": "gateway",
+          "region": "us-central1"
+        }
       },
       {
         "source": "/graphql",
-        "function": "graphGateway"
+        "run": {
+          "serviceId": "gateway",
+          "region": "us-central1"
+        }
       },
       {
         "source": "/view",
-        "function": "graphGateway"
+        "run": {
+          "serviceId": "gateway",
+          "region": "us-central1"
+        }
       },
       {
         "source": "/.internal/**",
-        "function": "graphGateway"
+        "run": {
+          "serviceId": "gateway",
+          "region": "us-central1"
+        }
       },
       {
         "source": "/profile",
