@@ -6,28 +6,28 @@
         "source": "/",
         "run": {
           "serviceId": "gateway",
-          "region": "us_central1"
+          "region": "us-central1"
         }
       },
       {
         "source": "/graphql",
         "run": {
           "serviceId": "gateway",
-          "region": "us_central1"
+          "region": "us-central1"
         }
       },
       {
         "source": "/view",
         "run": {
           "serviceId": "gateway",
-          "region": "us_central1"
+          "region": "us-central1"
         }
       },
       {
         "source": "/.internal/**",
         "run": {
           "serviceId": "gateway",
-          "region": "us_central1"
+          "region": "us-central1"
         }
       },
       {
