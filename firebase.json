@@ -41,6 +41,10 @@
       {
         "source": "og-image.that.tech/",
         "functions": "og-image"
+      },
+      {
+        "source": "/og-image",
+        "functions": "og-image"
       }
     ],
     "ignore": ["firebase.json", "**/node_modules/**"]
