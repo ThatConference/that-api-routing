@@ -40,11 +40,11 @@
       },
       {
         "source": "/og-image",
-        "functions": "og-image"
+        "function": "og-image"
       },
       {
         "source": "og-image.that.tech/",
-        "functions": "og-image"
+        "function": "og-image"
       }
     ],
     "ignore": ["firebase.json", "**/node_modules/**"]
