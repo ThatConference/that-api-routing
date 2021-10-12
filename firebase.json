@@ -37,6 +37,10 @@
       {
         "source": "/check",
         "function": "fileUploadGateway"
+      },
+      {
+        "source": "og-image.that.tech/",
+        "functions": "og-image"
       }
     ],
     "ignore": ["firebase.json", "**/node_modules/**"]
