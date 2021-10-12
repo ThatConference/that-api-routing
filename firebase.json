@@ -39,11 +39,11 @@
         "function": "fileUploadGateway"
       },
       {
-        "source": "og-image.that.tech/",
+        "source": "/og-image",
         "functions": "og-image"
       },
       {
-        "source": "/og-image",
+        "source": "og-image.that.tech/",
         "functions": "og-image"
       }
     ],
